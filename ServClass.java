@@ -5,7 +5,7 @@ import org.hibernate.annotations.Table;
 @Table(appliesTo="USER")
 public class ServClass {
 	private int id;
-	private String username;
+	private String dsin;
 	private String password;
 	private String email;
 	private String contact;
