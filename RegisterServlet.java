@@ -19,7 +19,7 @@ public class RegisterServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 	
-		String username=request.getParameter("username");
+		String username=request.getParameter("uname");
 		String password=request.getParameter("password");
 		String email=request.getParameter("email");
 		String contact=request.getParameter("contact");
